@@ -1,0 +1,9 @@
+runtime: nodejs8
+api_version: 1
+threadsafe: true
+handlers:
+- url: /
+ static_files: psy-quiz/index.html
+ upload: psy-quiz/index.html
+- url: /
+static_dir: psy-quiz
